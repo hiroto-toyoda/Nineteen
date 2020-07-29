@@ -4,13 +4,14 @@ document.addEventListener('init', function (event) {
   // === sample data set ===
   let groupName = ""
   if (page.id === "match-making-matched") {
-    groupName ="マッチング美女";
-  } else if ( page.id === "match-making-offered-by") {
-    groupName ="オファー来た美女";
-  } else if ( page.id === "match-making-offered-to" ) {
-    groupName ="オファー済み！美女";
+    groupName = "マッチング美女";
+  } else if (page.id === "match-making-offered-by") {
+    groupName = "オファー来た美女";
+  } else if (page.id === "match-making-offered-to") {
+    groupName = "オファー済み！美女";
   } else {
-    groupName = "謎の美女"
+    return
+    // groupName = "謎の美女"
   }
   const eachGroupElm = `
     <div class="container-block" >

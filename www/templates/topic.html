@@ -1,25 +1,102 @@
-<!--　This is a temporary placement file. So you can change file name, either create a new directory.  -->
+<!-- 掲示板画面 -->
 <ons-page id="topic">
   <div class="page__background background_whitesmoke"></div>
-  <div class="wrapper">
   <ons-toolbar class="toolbar">
     <div class="left">
       <ons-icon icon="fa-bell" size="20px" fixed-width="false" class="icon-white"></ons-icon>
     </div>
     <div class="center">Nineteen</div>
-    <div class="right">
+    <div id="go-setting-info" class="right">
       <ons-icon icon="fa-cog" size="20px" fixed-width="false" class="icon-white"></ons-icon>
     </div>
   </ons-toolbar>
-  <div>
-    Here is "掲示板画面"
-    Here is "掲示板画面"
-    Here is "掲示板画面"
-    Here is "掲示板画面"
-    Here is "掲示板画面"
-    Here is "掲示板画面"
-    Here is "掲示板画面"
-    Here is "掲示板画面"
+
+  <input type="text" placeholder="#ハッシュタグ検索" class="search-input search-input--material">
+
+  <div class="container-default-heigh">
+    <ons-list>
+      <ons-list-item>
+        <h5>人気トピック</h5>
+        <table>
+          <tr>
+            <th>
+              <img src="../../assets/icon/school.svg" width="100" height="100">
+            </th>
+            <th>
+              <img src="../../assets/icon/tennis.svg" width="100" height="100">
+            </th>
+            <th>
+              <img src="../../assets/icon/game.svg" width="100" height="100">
+            </th>
+          </tr>
+          <tr>
+            <td>
+              高校の同期
+            </td>
+            <td>
+              テニス仲間
+            </td>
+            <td>
+              ゲーム仲間
+            </td>
+          </tr>
+        </table>
+      </ons-list-item>
+      <ons-list-item>
+        <h5>新着トピック</h5>
+        <table>
+          <tr>
+            <th>
+              <img src="../../assets/icon/gym.svg" width="100" height="100">
+            </th>
+            <th>
+              <img src="../../assets/icon/baseball.svg" width="100" height="100">
+            </th>
+            <th>
+              <img src="../../assets/icon/game.svg" width="100" height="100">
+            </th>
+          </tr>
+          <tr>
+            <td>
+              ジムの友達
+            </td>
+            <td>
+              野球仲間
+            </td>
+            <td>
+              ゲーム仲間
+            </td>
+          </tr>
+        </table>
+      </ons-list-item>
+      <ons-list-item>
+        <h5>おすすめトピック</h5>
+        <table>
+          <tr>
+            <th>
+              <img src="../../assets/icon/school.svg" width="100" height="100">
+            </th>
+            <th>
+              <img src="../../assets/icon/tennis.svg" width="100" height="100">
+            </th>
+            <th>
+              <img src="../../assets/icon/game.svg" width="100" height="100">
+            </th>
+          </tr>
+          <tr>
+            <td>
+              高校の同期
+            </td>
+            <td>
+              テニス仲間
+            </td>
+            <td>
+              ゲーム仲間
+            </td>
+          </tr>
+        </table>
+      </ons-list-item>
+    </ons-list>
   </div>
   <ons-tabbar class="footer-tab" swipeable>
     <ons-tab id="js-home-tab" label=" ホーム" icon="fa-home" badge=""></ons-tab>
